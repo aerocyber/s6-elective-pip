@@ -1,0 +1,9 @@
+Quantum Computing: The Privacy Killer
+
+The entire Internet rely on cryptography which is responsible for maintaining privacy of users.
+Cryptgraphy, though not visible at first glance, hides in plai sight. The "secure" padlock symbol on
+your browsers' address bar is an obvious yet missed form of cryptography.
+
+Advancements in quantum computing has made it possible to break several of the cryptographic algorithms.
+What this means forthe world is that the information can get altered midway and you'd not know about it.
+E2EE fails. And so does digital privacy.
