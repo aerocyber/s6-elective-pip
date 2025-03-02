@@ -1,0 +1,23 @@
+version = 1
+revision = 1
+requires-python = ">=3.13"
+
+[[package]]
+name = "images-py"
+version = "0.1.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e3/b1/865505c8b986f9efa3958966b528975a9784599dc110f287dc01c8192d10/images_py-0.1.2.tar.gz", hash = "sha256:1489ce3115867aa285efbe7431fdbee46ecafc85f87eb0713f1ffd36a5828614", size = 2890 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6c/12/dc18d0d90cd52c484bf10e5ec9763deb710fdd5a7a99c3bec0eb36a7737b/images_py-0.1.2-py3-none-any.whl", hash = "sha256:98499faae6793cfd10eebab18352544e5248a9dffb38c4e978eb7e623073e9e7", size = 3244 },
+]
+
+[[package]]
+name = "s6-elective-pip"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "images-py" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "images-py", specifier = ">=0.1.2" }]
